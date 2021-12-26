@@ -1,0 +1,3 @@
+Deployment    Function      Type
+Head          alertMessage  Trigger
+Head          onOpen        Simple Trigger
