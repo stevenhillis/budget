@@ -1,21 +1,5 @@
 // https://gist.github.com/develmaycare/4e72e72ae0be85a8efe7a525267afbc3
 
-// global 
-var ss = SpreadsheetApp.getActive();
-
-function createTrigger() {
-  ScriptApp.newTrigger("alertMessage").forSpreadsheet(ss).onChange().create();
-}
-
-function onOpen() {
-  var menu = [
-    {name:"New Formatted Row Below", functionName:"newRow"},
-    {name:"Authorize Initialization", functionName:"createTrigger"},
-    {name:"Initialize Sheet", functionName:"createTrigger"}
-  ];
-  ss.addMenu("Extras", menu);
-}
-
 /* Google Sheets does not copy formulas when inserting a row. Bogus.
 While not exactly the same, this function duplicates the row, including the
 formulas, and clears the cells in columns 1 & 2 of the new row.
