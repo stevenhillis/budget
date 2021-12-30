@@ -5,7 +5,7 @@
 1. Copy the [sample year](https://docs.google.com/spreadsheets/d/1L0hlw2Aj91cdvMGzJxN24Vu6ns8Bl7oNBPTPCDbfQPw/edit?usp=sharing) to your desired folder with the appropriate name
 2. Copy the [sample month](https://docs.google.com/spreadsheets/d/1-qlCjc9i-t_JzJJjd1RwGDwTQ7QHjhQUaqDio1RjYRs/edit?usp=sharing) to your desired folder with the appropriate name
 3. Open month copy; click Extras->Authorize Intialization. Authorize the unverified script following these steps: https://stackoverflow.com/a/48482520. After verification, click Extras->Initialize Sheet
-    * Verification is necessary because I am not a corporate entity authorized by google
+    * Verification is necessary because I am not a corporate entity authorized by google; I've included all apps script code in <code>./src/</code>
 4. Modify the sheets (tabs, in the bottom left) in the month copy as necessary
     * You can delete, rename, or duplicate and rename the account tabs to suit your situation
 6. Open the year copy; click Extras->Authorize Intialization. Authorize the unverified script following the same steps as above: https://stackoverflow.com/a/48482520. After verification, click Extras->Initialize Sheet
