@@ -18,4 +18,4 @@
 
 * For logging a return or refund: assign it to the appropriate category but prepend the number with a negative.
 * If you try to have duplicate category names, you'll get errors; all categories must be unique. Special categories are "Income" and "Zeroed": they are present by default. Autocomplete is nicer if you spread out category names over the alphabet. If you change a category name, the errors will resolve in <10 seconds.
-* Category resolution is based on exact string matching. This means that if you change an existing category name after logging expenses for a month using the old category name, they will be orphaned. Fixing this is a primary TODO.
+* Category resolution is based on string matching. This means that if you change an existing category name after logging expenses for a month using the old category name, they will be orphaned. Fixing this is a primary TODO.
