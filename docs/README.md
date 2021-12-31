@@ -1,4 +1,4 @@
-# Google Sheets budgeting template
+# Budgeting template
 
 ## Instructions
 
